@@ -1,0 +1,7 @@
+@mixin border-light-theme {
+  border: 1px solid $gray;
+}
+
+@mixin border-dark-theme {
+  border: 1px solid $green;
+}

@@ -1,0 +1,15 @@
+$dark: $black;
+$darkColor: $purple;
+$darkBg: $blue;
+
+$light: $white;
+$lightColor: $yellow;
+$lightBg: $pink;
+
+.deleted-msg,
+.errors {
+  background: $pink;
+  color: $danger;
+  padding: $size3;
+  margin-bottom: $size4;
+}

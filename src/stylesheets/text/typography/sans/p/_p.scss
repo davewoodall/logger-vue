@@ -1,0 +1,9 @@
+.p,
+.p2,
+.p3 {
+  @include typography-sans2;
+}
+
+.p3 {
+  text-transform: capitalize;
+}

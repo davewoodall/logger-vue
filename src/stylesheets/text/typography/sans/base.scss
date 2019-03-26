@@ -1,0 +1,11 @@
+$sans: "Open Sans", "Avenir", Helvetica, sans-serif;
+
+.sans {
+  @import "a/base";
+  @import "h/base";
+  @import "p/base";
+  input[type="text"],
+  textarea {
+    font-family: $sans;
+  }
+}

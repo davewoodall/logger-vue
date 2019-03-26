@@ -1,0 +1,32 @@
+.light-theme {
+  background: $gray;
+  @include page;
+  .a {
+    color: $blue;
+    &.router-link-exact-active {
+      background: $blue;
+      color: $white;
+    }
+  }
+  @media (min-width: $break3) {
+    .a {
+      &.router-link-exact-active {
+        color: $blue;
+        background: none;
+        border-bottom: 3px solid $blue;
+      }
+    }
+  }
+  .h1 {
+    color: $slate;
+  }
+  .h2 {
+    color: $blue;
+  }
+  .p2 {
+    color: $slate;
+  }
+  .p {
+    color: $black;
+  }
+}

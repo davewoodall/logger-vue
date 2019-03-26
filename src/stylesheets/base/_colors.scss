@@ -1,0 +1,25 @@
+// Extended Rainbow
+$pink: #f5d1e6;
+$red: #980000;
+$orange: #956e19;
+$brown: #534318;
+$yellow: #fab61d;
+$green: #257d72;
+$blue: #06a1d0;
+$navy: #004466;
+$purple: #9736b6;
+
+// Shades
+$white: #fff;
+$gray: #ebedee;
+$gray2: #cacdcf;
+$slate: #aaa;
+$black: #374047;
+
+// Use case
+$info: $blue;
+$warn: $yellow;
+$danger: $red;
+$success: $green;
+$light: $white;
+$highlight: lighten($yellow, 30%);

@@ -1,0 +1,25 @@
+textarea,
+input[type="text"] {
+  transition: all 400ms;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: $size2;
+  margin-bottom: $size5;
+  background: $gray;
+  box-sizing: border-box;
+  font-size: $size4;
+  &:focus {
+    transition: all 400ms;
+    background: $highlight;
+  }
+}
+
+@media (min-width: $break2) {
+  textarea,
+  input[type="text"] {
+    padding: $size4;
+    margin-bottom: $size5;
+    font-size: $size5;
+  }
+}

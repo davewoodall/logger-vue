@@ -1,0 +1,38 @@
+.dark-theme {
+  background: $black;
+  color: $warn;
+  @include page;
+
+  .a {
+    color: $white;
+    &.router-link-exact-active {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+  @media (min-width: $break3) {
+    .a {
+      &.router-link-exact-active {
+        color: $white;
+        background: none;
+        border: none;
+        border-radius: 0;
+        border-bottom: 3px solid $white;
+        text-decoration: none;
+      }
+    }
+  }
+  .h1 {
+    color: $black;
+    background: $gray;
+  }
+  .h2 {
+    color: $gray;
+  }
+  .p2 {
+    color: $slate;
+  }
+  .p {
+    color: $white;
+  }
+}

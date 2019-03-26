@@ -1,0 +1,5 @@
+@import "../global";
+.a {
+  @include typography-sans1;
+  font-weight: 400;
+}

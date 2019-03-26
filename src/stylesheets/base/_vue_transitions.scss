@@ -1,0 +1,23 @@
+.v-enter {
+  opacity: 0;
+}
+.v-enter-to {
+  opacity: 1;
+  transition: all 0.25s ease;
+}
+
+.v-leave {
+  opacity: 1;
+}
+
+.v-leave-active {
+  transition: all 0.3s ease;
+  transform: translateY(3px);
+  opacity: 1;
+}
+
+.v-leave-to {
+  transition: all 0.3s ease;
+  transform: translateY(3px);
+  opacity: 0;
+}

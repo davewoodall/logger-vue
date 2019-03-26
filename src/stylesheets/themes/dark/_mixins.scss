@@ -1,0 +1,20 @@
+// background
+@mixin background-dark-theme {
+  background: $black;
+}
+
+// background alias
+@mixin dark-theme-background {
+  @include background-dark-theme;
+}
+
+// h1
+@mixin h1-dark-theme {
+  .h1 {
+    color: $white;
+  }
+}
+// h1 alias
+@mixin dark-theme-h1 {
+  @include h1-dark-theme;
+}

@@ -1,0 +1,11 @@
+$serif: "Playfair Display", Georgia, serif;
+
+.serif {
+  @import "a/base";
+  @import "h/base";
+  @import "p/base";
+  input[type="text"],
+  textarea {
+    font-family: $serif;
+  }
+}

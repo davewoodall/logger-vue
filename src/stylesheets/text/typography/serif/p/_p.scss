@@ -1,0 +1,10 @@
+.p,
+.p2 {
+  @include typography-serif2;
+}
+
+.p3 {
+  font-family: Georgia;
+  font-style: italic;
+  text-transform: capitalize;
+}

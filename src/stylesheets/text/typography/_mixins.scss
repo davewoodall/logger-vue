@@ -1,0 +1,12 @@
+@mixin typography-sans {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+}
+
+@mixin typography-sans1 {
+  @include typography-sans;
+  font-weight: bold;
+}
+
+@mixin typography-sans2 {
+  @include typography-sans;
+}

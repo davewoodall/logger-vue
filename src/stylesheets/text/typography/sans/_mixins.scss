@@ -1,0 +1,14 @@
+@mixin typography-sans {
+  font-family: $sans;
+}
+
+@mixin typography-sans1 {
+  @include typography-sans;
+  font-weight: bold;
+}
+
+@mixin typography-sans2 {
+  font-family: helvetica;
+  font-style: italic;
+  font-weight: 100;
+}

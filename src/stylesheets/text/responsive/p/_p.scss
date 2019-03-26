@@ -1,0 +1,31 @@
+.p {
+  font-size: $size4;
+}
+.p2 {
+  font-size: $size2;
+}
+
+@media (min-width: $break2) {
+  .p {
+    line-height: 30px;
+  }
+}
+
+@media (min-width: $break3) {
+  .p {
+    font-size: $size5;
+    line-height: 42px;
+  }
+  .p2 {
+    font-size: $size3;
+  }
+}
+
+@media (min-width: $break4) {
+  .p {
+    font-size: $size6;
+  }
+  .p2 {
+    font-size: $size4;
+  }
+}

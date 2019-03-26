@@ -1,0 +1,12 @@
+// h1 responsive sizes
+
+.h1 {
+  font-size: $size4;
+}
+
+@media (min-width: $break2) {
+  .h1 {
+    font-size: $size8;
+  }
+}
+

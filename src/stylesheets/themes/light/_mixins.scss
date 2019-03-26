@@ -1,0 +1,12 @@
+@mixin background-light-theme {
+  background: $white;
+}
+
+@mixin background-light-theme2 {
+  background: $gray;
+}
+
+// alias
+@mixin light-theme-background {
+  @include background-light-theme;
+}
